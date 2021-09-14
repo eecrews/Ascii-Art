@@ -1,13 +1,10 @@
 import java.util.Scanner;
 
 /**
- * This class and models a simple AsciiArt generator
+ * This class models a simple AsciiArt generator
  *
  */
 public class AsciiArtDriver {
-  // THESE STRINGS WILL BE GIVEN FOR PROMPT PRINTOUTS
-  // USE System.out.print() INSTEAD OF System.out.println()
-  // FOR MATCHING OUTPUT
   private static String PROMPT_MENU = "" + "======== MENU ========\n" + "[1] Create a new canvas\n"
       + "[2] Draw a character\n" + "[3] Undo drawing\n" + "[4] Redo drawing\n"
       + "[5] Show current canvas\n" + "[6] Show drawing history\n" + "[7] Exit\n" + "> ";
@@ -23,7 +20,7 @@ public class AsciiArtDriver {
   private static String ERROR_NOTHING_ON_UNDO = "No job to undo.\n";
   private static String ERROR_NOTHING_ON_REDO = "No job to redo.\n";
   private static String ERROR_INPUT_CHARACTER_MORE_THAN_ONE =
-      "only 1 chracter should be entered.\n";
+      "Only 1 character should be entered.\n";
 
   // Only one canvas can be edited at a time
   private static Canvas canvas;
