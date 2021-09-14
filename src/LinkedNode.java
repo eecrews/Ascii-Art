@@ -1,4 +1,5 @@
-/**
+/* Not created by Erin.
+ *
  * This class implements a LinkedNode data type for a linked linear data structure
  * 
  * @param <T> type of data of this linked node
