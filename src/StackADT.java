@@ -1,4 +1,6 @@
 /**
+ * Not created by Erin.
+ *
  * Stack Abstract Data Type<br>
  * CS 300 P8 Assignment
  *
